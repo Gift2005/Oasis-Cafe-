@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oasis Café</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Dancing+Script:wght@700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">
+    Oasis Café
+    <small>Mossel Bay · 21 Marsh Street</small>
+  </div>
+  <button class="nav-menu-btn" id="menuBtn" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ── NAV DROPDOWN ── -->
+<div class="nav-dropdown" id="navDropdown">
+  <button class="nav-close-btn" id="closeMenuBtn" aria-label="Close menu">✕</button>
+  <a href="#about">About</a>
+  <a href="#menu">Menu</a>
+  <a href="#hours">Hours</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ── HERO BANNER ── -->
+<!-- ADD YOUR COVER PHOTO: replace src="" with your image e.g. src="cover.jpg" -->
+<div class="hero-banner">
+  <img src="" alt="Oasis Café cover photo">
+  <div class="hero-overlay">
+    <div class="hero-script">Oasis Café</div>
+    <div class="hero-sub">Mossel Bay · Western Cape</div>
+  </div>
+</div>
+
+<!-- ── QUICK INFO BAR ── -->
+<div class="info-bar">
+  <a class="info-bar-item call-btn" href="tel:+27446912317">
+    <span>📞</span> 044 691 2317
+  </a>
+  <div class="info-bar-sep"></div>
+  <span class="info-bar-item"><span>📍</span> Mossel Bay, WC</span>
+</div>
+
+<!-- ── ABOUT ── -->
+<div class="section" id="about">
+  <p class="section-tag">Welcome</p>
+  <h2>Great Food &<br>Good Vibes</h2>
+  <p>Located at 21 Marsh Street in Mossel Bay, Oasis Café is your neighbourhood spot for hearty burgers, toasties, savoury platters and crispy chips made fresh every day.</p>
+  <p>Whether you're stopping in for a quick bite or settling in for a relaxed meal, our team is here to make every visit a great one.</p>
+  <p>Simple food, done really well — that's the Oasis way.</p>
+  <div class="tags">
+    <span class="tag">🍔 Burgers</span>
+    <span class="tag">🥪 Toasties</span>
+    <span class="tag">🍽️ Platters</span>
+    <span class="tag">🪑 Outdoor Seating</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════ -->
+<!--         PHOTO GRID 1                  -->
+<!-- ══════════════════════════════════════ -->
+<div class="photo-grid-3">
+
+  <!-- PHOTO 1 — Café front / dining area: e.g. src="dining.jpg" -->
+  <div class="pg-item" style="height:220px;">
+    <img src="" alt="Dining Area">
+  </div>
+
+  <div class="right-col">
+
+    <!-- PHOTO 2 — Outdoor seating: e.g. src="outdoor.jpg" -->
+    <div class="pg-item">
+      <img src="" alt="Outdoor Seating">
+    </div>
+
+    <!-- PHOTO 3 — Coffee or drinks: e.g. src="drinks.jpg" -->
+    <div class="pg-item">
+      <img src="" alt="Drinks">
+    </div>
+
+  </div>
+</div>
+
+<!-- ── MENU BANNER ── -->
+<!-- PHOTO 4 — Menu Banner: e.g. src="menu-banner.jpg" -->
+<div class="banner-block" id="menu">
+  <img src="" alt="Our Menu">
+  <div class="banner-overlay">
+    <div class="banner-script">Our Menu</div>
+    <a href="#" class="banner-btn">View Menu</a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════ -->
+<!--         PHOTO GRID 2                  -->
+<!-- ══════════════════════════════════════ -->
+<div class="photo-grid-2">
+
+  <!-- PHOTO 5 — Burgers / meals: e.g. src="burgers.jpg" -->
+  <div class="pg-item" style="height:160px;">
+    <img src="" alt="Burgers">
+  </div>
+
+  <!-- PHOTO 6 — Toasties / platters: e.g. src="platters.jpg" -->
+  <div class="pg-item" style="height:160px;">
+    <img src="" alt="Platters">
+  </div>
+
+</div>
+
+<!-- ── OPENING HOURS ── -->
+<div class="hours-section" id="hours">
+  <h2>Opening Hours</h2>
+  <ul class="hours-list">
+    <li><span class="day">Monday – Thursday</span><span class="time">06:30 – 21:00</span></li>
+    <li><span class="day">Friday</span><span class="time">06:30 – 22:00</span></li>
+    <li><span class="day">Saturday</span><span class="time">06:30 – 22:00</span></li>
+    <li><span class="day">Sunday</span><span class="time">06:30 – 21:00</span></li>
+    <li><span class="day">Public Holidays</span><span class="time" style="color:#888;">Please call ahead</span></li>
+  </ul>
+</div>
+
+<!-- ── MAIN MENU BANNER ── -->
+<!-- PHOTO 7 — Main Menu Banner: e.g. src="main-menu.jpg" -->
+<div class="banner-block">
+  <img src="" alt="Main Menu">
+  <div class="banner-overlay">
+    <div class="banner-script">Main Menu</div>
+    <a href="#" class="banner-btn">View Menu</a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════ -->
+<!--         PHOTO GRID 3                  -->
+<!-- ══════════════════════════════════════ -->
+<div class="photo-grid-2">
+
+  <!-- PHOTO 8 — Atmosphere: e.g. src="atmosphere.jpg" -->
+  <div class="pg-item" style="height:160px;">
+    <img src="" alt="Atmosphere">
+  </div>
+
+  <!-- PHOTO 9 — Our Team: e.g. src="team.jpg" -->
+  <div class="pg-item" style="height:160px;">
+    <img src="" alt="Our Team">
+  </div>
+
+</div>
+
+<!-- ── CONTACT & LOCATION ── -->
+<div class="info-section" id="contact">
+  <h2>Contact & Location</h2>
+  <div class="info-row">
+    <div class="info-icon">📍</div>
+    <div class="info-text">
+      <strong>Address</strong>
+      <p>21 Marsh Street, Mossel Bay, 6500<br>Western Cape, South Africa</p>
+    </div>
+  </div>
+  <div class="info-row">
+    <div class="info-icon">🕐</div>
+    <div class="info-text">
+      <strong>Today's Hours</strong>
+      <p id="today-hours">06:30 – 17:00</p>
+      <span id="today-status" style="font-size:0.82rem; font-weight:700;"></span>
+    </div>
+  </div>
+  <div class="info-row">
+    <div class="info-icon">📞</div>
+    <div class="info-text">
+      <strong>Call Us</strong>
+      <a href="tel:+27446912317">044 691 2317</a>
+    </div>
+  </div>
+</div>
+
+<!-- ── MAP ── -->
+<div class="map-box">
+  <!-- To embed Google Maps replace the 3 lines below with your iframe -->
+  <!-- <iframe src="https://maps.google.com/..." width="100%" height="180" style="border:0;"></iframe> -->
+  <span class="map-pin">📍</span>
+  <p>21 Marsh Street · Mossel Bay · 6500</p>
+  <a href="https://maps.google.com/?q=21+Marsh+Street+Mossel+Bay+6500" target="_blank">Open in Google Maps →</a>
+</div>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-logo">Oasis Café</div>
+  <div class="footer-tagline">Mossel Bay · Western Cape · South Africa</div>
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#hours">Hours</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <p class="footer-copy">© 2026 Oasis Café · All Rights Reserved</p>
+</footer>
+
+<!-- ── STICKY BOTTOM BAR ── -->
+<div class="sticky-bar">
+  <a href="tel:+27446912317">📞 Call Us</a>
+  <div class="bar-sep"></div>
+  <a href="#hours">📅 Book Now</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
